@@ -1,0 +1,76 @@
+{
+  "jokes": [
+    {
+      "id": 1,
+      "setup": "Why do programmers prefer dark mode?",
+      "punchline": "Because light attracts bugs!",
+      "category": "general",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "setup": "What's a programmer's favorite place in the house?",
+      "punchline": "The living ROM!",
+      "category": "hardware",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "setup": "Why do Java developers wear glasses?",
+      "punchline": "Because they don't C#!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "setup": "What do you call a database administrator who breaks up with their partner?",
+      "punchline": "Single!",
+      "category": "database",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "setup": "Why did the UI designer go broke?",
+      "punchline": "Because they lost all their margins!",
+      "category": "ui",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "setup": "What's a DevOps engineer's favorite movie?",
+      "punchline": "The Terminal!",
+      "category": "devops",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "setup": "Why do programmers always mix up Halloween and Christmas?",
+      "punchline": "Because Oct 31 == Dec 25!",
+      "category": "programming",
+      "difficulty": "hard"
+    },
+    {
+      "id": 8,
+      "setup": "How many programmers does it take to change a light bulb?",
+      "punchline": "None, that's a hardware problem!",
+      "category": "hardware",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "setup": "What's a programmer's favorite snack?",
+      "punchline": "Cookies!",
+      "category": "general",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "setup": "Why was the database administrator fired?",
+      "punchline": "They lost their backup plan!",
+      "category": "database",
+      "difficulty": "medium"
+    }
+  ],
+  "categories": ["general", "programming", "hardware", "database", "ui", "devops"],
+  "difficulties": ["easy", "medium", "hard"]
+}
