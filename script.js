@@ -31,12 +31,16 @@ function updateStatus(status) {
 }
 
 function connectWebSocket() {
-    const isProduction = window.location.hostname.includes('github.io');
-    const wsUrl = isProduction 
-        ? 'wss://dev-jokes-api.onrender.com'
-        : `${window.location.protocol === 'https:' ? 'wss:' : 'ws:'}//${window.location.host}`;
+    // Always connect to Render.com deployment
+    const wsUrl = 'wss://dev-jokes-api.onrender.com';
     
     ws = new WebSocket(wsUrl);
+    
+    // Add connection status handling
+    ws.onopen = () => {
+        console.log('Connected to WebSocket');
+        updateStatus('live');
+    };
 
     ws.onmessage = (event) => {
         const data = JSON.parse(event.data);
@@ -47,6 +51,7 @@ function connectWebSocket() {
     };
 
     ws.onclose = () => {
+        console.log('WebSocket disconnected, attempting to reconnect...');
         clearInterval(uptimeInterval);
         setTimeout(connectWebSocket, 5000);
         updateStatus('down');
