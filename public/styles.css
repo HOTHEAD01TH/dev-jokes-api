@@ -211,7 +211,7 @@ h1 {
 #myVideo {
     position: fixed;
     right: -20%;
-    bottom: -20%;
+    bottom: -50%;
     min-width: 140%;
     min-height: 140%;
     z-index: -2;

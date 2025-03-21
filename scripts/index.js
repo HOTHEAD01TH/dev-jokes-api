@@ -29,10 +29,8 @@ app.use(limiter);
 // Remove static file serving
 // app.use(express.static(path.join(__dirname, '../public')));
 
-// Remove Swagger UI in production
-if (process.env.NODE_ENV !== 'production') {
-  app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
-}
+// Serve Swagger UI
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 // Keep only API routes
 app.use('/api/*', (req, res, next) => {

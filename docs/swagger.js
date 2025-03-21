@@ -44,7 +44,7 @@ const swaggerOptions = {
     info: {
       title: 'Dev Jokes API',
       version: '1.0.0',
-      description: 'A free and open-source API that serves programming-related jokes with categories and difficulty levels. Perfect for adding humor to your developer projects!',
+      description: 'A free and open-source API that serves programming-related jokes with categories and difficulty levels.',
       contact: {
         name: 'HOTHEAD01TH',
         url: 'https://github.com/HOTHEAD01TH'
