@@ -24,7 +24,7 @@ A free and open-source API that serves programming-related jokes with categories
 
 ### Base URL
 ```
-http://localhost:3000
+https://dev-jokes-api.onrender.com
 ```
 
 ### Endpoints
@@ -55,12 +55,12 @@ http://localhost:3000
 
 1. API Statistics Dashboard
 ```
-http://localhost:3000
+https://hothead01th.github.io/
 ```
 
 2. API Documentation (Swagger UI)
 ```
-http://localhost:3000/docs
+https://hothead01th.github.io/
 ```
 
 ## 🚦 Getting Started
@@ -123,7 +123,7 @@ const DevJokesApi = require('./sdk/javascript');
 
 // Initialize the API client
 const apiClient = new DevJokesApi.ApiClient();
-apiClient.basePath = 'http://localhost:3000';
+apiClient.basePath = 'https://dev-jokes-api.onrender.com';
 
 // Create API instances
 const jokesApi = new DevJokesApi.JokesApi(apiClient);
@@ -166,7 +166,7 @@ statisticsApi.apiStatisticsGet((error, data, response) => {
 
 ```javascript
 // Using fetch
-fetch('http://localhost:3000/api/jokes/random')
+fetch('https://dev-jokes-api.onrender.com/api/jokes/random')
   .then(response => response.json())
   .then(joke => console.log(joke));
 
@@ -174,7 +174,7 @@ fetch('http://localhost:3000/api/jokes/random')
 import { Configuration, DefaultApi } from './sdk/typescript';
 
 const api = new DefaultApi(new Configuration({
-  basePath: 'http://localhost:3000'
+  basePath: 'https://dev-jokes-api.onrender.com'
 }));
 
 api.getRandomJoke()

@@ -5,30 +5,38 @@ const swaggerDocs = require('../docs/swagger');
 const jokes = require('../data/jokes.json');
 const rateLimit = require('express-rate-limit');
 const statistics = require('./statistics');
-const path = require('path');
+const http = require('http');
 
 const app = express();
+const server = http.createServer(app);
 const port = process.env.PORT || 3000;
 
 // Rate limiting
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100 // limit each IP to 100 requests per windowMs
+  max: 150 // limit each IP to 150 requests per windowMs
 });
 
-// Middleware
-app.use(cors());
+// CORS configuration for API only
+app.use(cors({
+  origin: ['https://hothead01th.github.io', 'http://localhost:3000', 'https://hothead01th.github.io/dev-jokes-api'],
+  methods: ['GET']
+}));
+
 app.use(express.json());
 app.use(limiter);
-app.use(express.static(path.join(__dirname, '../public')));
-app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
-// Track requests
-app.use((req, res, next) => {
-  // Only increment counter for API requests
-  if (req.path.startsWith('/api/')) {
-    statistics.incrementRequests();
-  }
+// Remove static file serving
+// app.use(express.static(path.join(__dirname, '../public')));
+
+// Remove Swagger UI in production
+if (process.env.NODE_ENV !== 'production') {
+  app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
+}
+
+// Keep only API routes
+app.use('/api/*', (req, res, next) => {
+  statistics.incrementRequests();
   next();
 });
 
@@ -224,7 +232,13 @@ app.use((err, req, res, next) => {
   res.status(500).json({ message: 'Something broke!' });
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-  console.log(`Swagger documentation available at http://localhost:${port}/docs`);
+// Initialize WebSocket
+statistics.initWebSocket(server);
+
+// Start server
+server.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+  console.log(`Swagger documentation available at ${process.env.NODE_ENV === 'production' 
+    ? 'https://dev-jokes-api.onrender.com/docs'
+    : `http://localhost:${port}/docs`}`);
 });

@@ -5,19 +5,26 @@
   "main": "index.js",
   "scripts": {
     "start": "node scripts/index.js",
+    "dev": "nodemon scripts/index.js",
+    "predeploy": "rmdir /s /q dist 2>nul || mkdir dist && xcopy /s /e /y public dist\\",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate-sdk": "openapi-generator-cli generate -i http://localhost:3000/docs-json -g javascript -o sdk/javascript",
-    "generate-sdk-typescript": "openapi-generator-cli generate -i http://localhost:3000/docs-json -g typescript-axios -o sdk/typescript"
+    "generate-sdk": "openapi-generator-cli generate -i https://dev-jokes-api.onrender.com/docs-json -g javascript -o sdk/javascript",
+    "generate-sdk-typescript": "openapi-generator-cli generate -i https://dev-jokes-api.onrender.com/docs-json -g typescript-axios -o sdk/typescript"
   },
   "keywords": [],
-  "author": "",
+  "author": "HOTHEAD01TH",
   "license": "ISC",
   "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.7.0",
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "express-rate-limit": "^6.7.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1",
-    "@openapitools/openapi-generator-cli": "^2.7.0"
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

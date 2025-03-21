@@ -56,7 +56,12 @@ const swaggerOptions = {
     },
     servers: [
       {
+        url: 'https://dev-jokes-api.onrender.com',
+        description: 'Production server'
+      },
+      {
         url: `http://localhost:${port}`,
+        description: 'Local development server'
       }
     ],
     tags: [

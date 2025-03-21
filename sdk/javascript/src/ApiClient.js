@@ -32,11 +32,11 @@ class ApiClient {
      * Overrides the default value set in spec file if present
      * @param {String} basePath
      */
-    constructor(basePath = 'http://localhost:3000') {
+    constructor(basePath = 'https://dev-jokes-api.onrender.com') {
         /**
          * The base URL against which to resolve every API call's (relative) path.
          * @type {String}
-         * @default http://localhost:3000
+         * @default https://dev-jokes-api.onrender.com
          */
         this.basePath = basePath.replace(/\/+$/, '');
 
@@ -594,7 +594,8 @@ class ApiClient {
     hostSettings() {
         return [
             {
-              'url': "http://localhost:3000",
+              'url': "https://dev-jokes-api.onrender.com",
+         
             }
       ];
     }

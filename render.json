@@ -1,0 +1,13 @@
+{
+  "name": "dev-jokes-api",
+  "env": {
+    "NODE_ENV": "production",
+    "PORT": "3000"
+  },
+  "buildCommand": "npm install",
+  "startCommand": "node scripts/index.js",
+  "healthCheckPath": "/api/statistics",
+  "cors": {
+    "allowedOrigins": ["https://hothead01th.github.io", "https://hothead01th.github.io/dev-jokes-api"]
+  }
+} 
