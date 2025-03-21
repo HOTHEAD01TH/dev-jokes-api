@@ -55,12 +55,12 @@ https://dev-jokes-api.onrender.com
 
 1. API Statistics Dashboard
 ```
-https://hothead01th.github.io/
+https://hothead01th.github.io/dev-jokes-api/
 ```
 
 2. API Documentation (Swagger UI)
 ```
-https://hothead01th.github.io/
+https://dev-jokes-api.onrender.com/docs/
 ```
 
 ## 🚦 Getting Started

@@ -4,14 +4,14 @@
       "id": 1,
       "setup": "Why do programmers prefer dark mode?",
       "punchline": "Because light attracts bugs!",
-      "category": "general",
+      "category": "programming",
       "difficulty": "easy"
     },
     {
       "id": 2,
       "setup": "What's a programmer's favorite place in the house?",
       "punchline": "The living ROM!",
-      "category": "hardware",
+      "category": "programming",
       "difficulty": "easy"
     },
     {
@@ -111,8 +111,607 @@
       "punchline": "Because they were experiencing type depression!",
       "category": "programming",
       "difficulty": "hard"
+    },
+    {
+      "id": 17,
+      "setup": "Why did the database administrator leave his wife?",
+      "punchline": "Because she had too many relationships!",
+      "category": "database",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "setup": "What's a web developer's favorite tea?",
+      "punchline": "URL Grey!",
+      "category": "web",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "setup": "What did the senior developer say to the junior developer?",
+      "punchline": "I C what you did there!",
+      "category": "programming",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "setup": "Why did the security consultant go broke?",
+      "punchline": "Because he kept giving firewall advice for free!",
+      "category": "security",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "setup": "What's a hacker's favorite season?",
+      "punchline": "Phishing season!",
+      "category": "security",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "setup": "What did the algorithm say at the funeral?",
+      "punchline": "Time to recursion peace!",
+      "category": "algorithms",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "setup": "Why do Python developers wear glasses?",
+      "punchline": "Because they can't C!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "setup": "What's a backend developer's favorite drink?",
+      "punchline": "Root beer!",
+      "category": "programming",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "setup": "Why did the API go to therapy?",
+      "punchline": "It had too many REST issues!",
+      "category": "web",
+      "difficulty": "medium"
+    },
+    {
+      "id": 26,
+      "setup": "What's a blockchain developer's favorite food?",
+      "punchline": "Hash browns!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "setup": "What did the Docker container say when it crashed?",
+      "punchline": "I'm under a lot of pressure to contain myself!",
+      "category": "devops",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "setup": "Why did the functional programmer get thrown out of school?",
+      "punchline": "Because they refused to take classes!",
+      "category": "programming",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "setup": "What's a network engineer's favorite game?",
+      "punchline": "Ping pong!",
+      "category": "networking",
+      "difficulty": "easy"
+    },
+    {
+      "id": 30,
+      "setup": "Why do Kubernetes engineers make great party planners?",
+      "punchline": "They're experts at orchestration!",
+      "category": "devops",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "setup": "What's a QA engineer's favorite dessert?",
+      "punchline": "Bug pudding!",
+      "category": "debugging",
+      "difficulty": "easy"
+    },
+    {
+      "id": 32,
+      "setup": "Why did the GraphQL developer go broke?",
+      "punchline": "Too many nested queries!",
+      "category": "web",
+      "difficulty": "hard"
+    },
+    {
+      "id": 33,
+      "setup": "What's a machine learning model's favorite exercise?",
+      "punchline": "Fitting training data!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 34,
+      "setup": "Why was the Redis developer so calm?",
+      "punchline": "Because they were in-memory of their happy place!",
+      "category": "database",
+      "difficulty": "hard"
+    },
+    {
+      "id": 35,
+      "setup": "What's a CSS developer's favorite band?",
+      "punchline": "The Selectors!",
+      "category": "web",
+      "difficulty": "easy"
+    },
+    {
+      "id": 36,
+      "setup": "What did the React component say when it failed to render?",
+      "punchline": "I've made a terrible setState!",
+      "category": "web",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "setup": "Why did the cloud engineer get lost?",
+      "punchline": "They were stuck in a fog computing environment!",
+      "category": "devops",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "setup": "What's a data scientist's favorite Netflix show?",
+      "punchline": "Stranger Things in my Dataset!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "setup": "Why did the Angular developer have trust issues?",
+      "punchline": "Because everyone kept injecting dependencies into their life!",
+      "category": "web",
+      "difficulty": "hard"
+    },
+    {
+      "id": 40,
+      "setup": "What's a penetration tester's favorite drink?",
+      "punchline": "Vulnerability juice with a SQL shot!",
+      "category": "security",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "setup": "Why did the NoSQL developer go home?",
+      "punchline": "They didn't want to make any more collections!",
+      "category": "database",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "setup": "What's a Linux user's favorite game?",
+      "punchline": "Super Bash Brothers!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "setup": "Why do Vue developers always carry a map?",
+      "punchline": "Because they keep getting lost in the router!",
+      "category": "web",
+      "difficulty": "hard"
+    },
+    {
+      "id": 44,
+      "setup": "What did the AWS Lambda function say to the API Gateway?",
+      "punchline": "Stop triggering me!",
+      "category": "devops",
+      "difficulty": "hard"
+    },
+    {
+      "id": 45,
+      "setup": "Why did the machine learning model feel lonely?",
+      "punchline": "It had high bias but low friends!",
+      "category": "programming",
+      "difficulty": "hard"
+    },
+    {
+      "id": 46,
+      "setup": "What did the AI say to the neural network?",
+      "punchline": "You've got some deep learning to do!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "setup": "Why did the Terraform developer break up with Git?",
+      "punchline": "Too many state conflicts!",
+      "category": "devops",
+      "difficulty": "hard"
+    },
+    {
+      "id": 48,
+      "setup": "What's a load balancer's favorite dance?",
+      "punchline": "The traffic shuffle!",
+      "category": "networking",
+      "difficulty": "medium"
+    },
+    {
+      "id": 49,
+      "setup": "Why did the CORS policy feel lonely?",
+      "punchline": "It was rejecting too many origins!",
+      "category": "web",
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "setup": "What's a microservice's favorite TV show?",
+      "punchline": "Breaking Bad Dependencies!",
+      "category": "devops",
+      "difficulty": "hard"
+    },
+    {
+      "id": 51,
+      "setup": "Why did the Jest test feel confident?",
+      "punchline": "It had 100% coverage!",
+      "category": "debugging",
+      "difficulty": "medium"
+    },
+    {
+      "id": 52,
+      "setup": "What's a TypeScript developer's favorite game?",
+      "punchline": "Type Fighter!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 53,
+      "setup": "Why did the MongoDB admin feel overwhelmed?",
+      "punchline": "Too many aggregate emotions!",
+      "category": "database",
+      "difficulty": "hard"
+    },
+    {
+      "id": 54,
+      "setup": "What's a Prometheus metric's favorite movie?",
+      "punchline": "The Time Series Chronicles!",
+      "category": "devops",
+      "difficulty": "hard"
+    },
+    {
+      "id": 55,
+      "setup": "Why did the WebSocket connection feel insecure?",
+      "punchline": "It wasn't SSL-ing well!",
+      "category": "security",
+      "difficulty": "medium"
+    },
+    {
+      "id": 56,
+      "setup": "What's a Redux store's favorite hobby?",
+      "punchline": "State collecting!",
+      "category": "web",
+      "difficulty": "medium"
+    },
+    {
+      "id": 57,
+      "setup": "Why did the binary tree feel unbalanced?",
+      "punchline": "It was leaning too much to the right!",
+      "category": "algorithms",
+      "difficulty": "hard"
+    },
+    {
+      "id": 58,
+      "setup": "What's a Kafka producer's worst nightmare?",
+      "punchline": "Topic block!",
+      "category": "programming",
+      "difficulty": "hard"
+    },
+    {
+      "id": 59,
+      "setup": "Why did the DNS server go to therapy?",
+      "punchline": "It had resolution issues!",
+      "category": "networking",
+      "difficulty": "medium"
+    },
+    {
+      "id": 60,
+      "setup": "What's a blockchain miner's favorite exercise?",
+      "punchline": "Proof of Work-out!",
+      "category": "programming",
+      "difficulty": "hard"
+    },
+    {
+      "id": 61,
+      "setup": "Why did the OAuth token feel rejected?",
+      "punchline": "It wasn't authorized to share its feelings!",
+      "category": "security",
+      "difficulty": "hard"
+    },
+    {
+      "id": 62,
+      "setup": "What's a Docker container's favorite party game?",
+      "punchline": "Musical Volumes!",
+      "category": "devops",
+      "difficulty": "medium"
+    },
+    {
+      "id": 63,
+      "setup": "Why did the CI/CD pipeline feel stressed?",
+      "punchline": "Too many continuous deployments!",
+      "category": "devops",
+      "difficulty": "medium"
+    },
+    {
+      "id": 64,
+      "setup": "What's a quantum computer's favorite snack?",
+      "punchline": "Bits and bytes in superposition!",
+      "category": "programming",
+      "difficulty": "hard"
+    },
+    {
+      "id": 65,
+      "setup": "Why did the GraphQL resolver feel overworked?",
+      "punchline": "Too many nested relationships!",
+      "category": "web",
+      "difficulty": "hard"
+    },
+    {
+      "id": 66,
+      "setup": "What's a Kubernetes pod's favorite music genre?",
+      "punchline": "Container Rock!",
+      "category": "devops",
+      "difficulty": "medium"
+    },
+    {
+      "id": 67,
+      "setup": "Why did the SSL certificate feel lonely?",
+      "punchline": "It couldn't establish a secure connection!",
+      "category": "security",
+      "difficulty": "medium"
+    },
+    {
+      "id": 68,
+      "setup": "What's a data engineer's favorite breakfast?",
+      "punchline": "ETL (Eggs, Toast, and Latency)!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 69,
+      "setup": "Why did the Elasticsearch cluster feel overwhelmed?",
+      "punchline": "Too many shards to handle!",
+      "category": "database",
+      "difficulty": "hard"
+    },
+    {
+      "id": 70,
+      "setup": "What's a React hook's favorite movie?",
+      "punchline": "The State of Effects!",
+      "category": "web",
+      "difficulty": "hard"
+    },
+    {
+      "id": 71,
+      "setup": "Why did the Git branch feel lonely?",
+      "punchline": "It was never merged!",
+      "category": "programming",
+      "difficulty": "easy"
+    },
+    {
+      "id": 72,
+      "setup": "What's a frontend developer's favorite element?",
+      "punchline": "Div-inium!",
+      "category": "web",
+      "difficulty": "easy"
+    },
+    {
+      "id": 73,
+      "setup": "Why did the RabbitMQ developer go crazy?",
+      "punchline": "Too many queued messages in their head!",
+      "category": "programming",
+      "difficulty": "hard"
+    },
+    {
+      "id": 74,
+      "setup": "What's an AWS S3 bucket's worst fear?",
+      "punchline": "Public access!",
+      "category": "security",
+      "difficulty": "medium"
+    },
+    {
+      "id": 75,
+      "setup": "Why did the Python list feel sad?",
+      "punchline": "It was empty inside!",
+      "category": "programming",
+      "difficulty": "easy"
+    },
+    {
+      "id": 76,
+      "setup": "What's a DevOps engineer's favorite weather?",
+      "punchline": "Cloudy with a chance of deployments!",
+      "category": "devops",
+      "difficulty": "medium"
+    },
+    {
+      "id": 77,
+      "setup": "Why did the SQL query cross the road?",
+      "punchline": "To JOIN the other tables!",
+      "category": "database",
+      "difficulty": "easy"
+    },
+    {
+      "id": 78,
+      "setup": "What's a JWT's favorite hobby?",
+      "punchline": "Token collecting!",
+      "category": "security",
+      "difficulty": "medium"
+    },
+    {
+      "id": 79,
+      "setup": "Why did the cache feel misunderstood?",
+      "punchline": "Everyone kept missing its keys!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 80,
+      "setup": "What's a Nginx server's favorite response?",
+      "punchline": "200 OK, let's proxy!",
+      "category": "web",
+      "difficulty": "medium"
+    },
+    {
+      "id": 81,
+      "setup": "What's a Rust developer's favorite snack?",
+      "punchline": "Memory-safe cookies!",
+      "category": "programming",
+      "difficulty": "hard"
+    },
+    {
+      "id": 82,
+      "setup": "Why did the Cassandra cluster go to therapy?",
+      "punchline": "It had consistency issues!",
+      "category": "database",
+      "difficulty": "hard"
+    },
+    {
+      "id": 83,
+      "setup": "What's a Webpack developer's favorite food?",
+      "punchline": "Bundle wraps!",
+      "category": "web",
+      "difficulty": "medium"
+    },
+    {
+      "id": 84,
+      "setup": "Why did the YAML file feel so exposed?",
+      "punchline": "It had too many spaces in public!",
+      "category": "devops",
+      "difficulty": "medium"
+    },
+    {
+      "id": 85,
+      "setup": "What's a Java developer's favorite island?",
+      "punchline": "Primitive Paradise!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 86,
+      "setup": "Why did the Scrum Master become a gardener?",
+      "punchline": "They were good at removing blockers!",
+      "category": "general",
+      "difficulty": "easy"
+    },
+    {
+      "id": 87,
+      "setup": "What's a DDoS attacker's least favorite response?",
+      "punchline": "429 Too Many Requests!",
+      "category": "security",
+      "difficulty": "hard"
+    },
+    {
+      "id": 88,
+      "setup": "Why did the PHP developer go broke?",
+      "punchline": "Too many $pending variables!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 89,
+      "setup": "What's a Postman's favorite holiday?",
+      "punchline": "API-ster!",
+      "category": "web",
+      "difficulty": "easy"
+    },
+    {
+      "id": 90,
+      "setup": "Why did the Hadoop cluster feel overwhelmed?",
+      "punchline": "It had too much MapReduce stress!",
+      "category": "database",
+      "difficulty": "hard"
+    },
+    {
+      "id": 91,
+      "setup": "What's a Flutter developer's favorite sport?",
+      "punchline": "Cross-platform running!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 92,
+      "setup": "Why did the IPv6 address feel superior?",
+      "punchline": "It had more bits than its ex!",
+      "category": "networking",
+      "difficulty": "medium"
+    },
+    {
+      "id": 93,
+      "setup": "What's a Vim user's favorite song?",
+      "punchline": "Can't escape from :q!",
+      "category": "programming",
+      "difficulty": "hard"
+    },
+    {
+      "id": 94,
+      "setup": "Why did the Jenkins pipeline break up with GitHub?",
+      "punchline": "Commitment issues!",
+      "category": "devops",
+      "difficulty": "medium"
+    },
+    {
+      "id": 95,
+      "setup": "What's a blockchain's favorite dance?",
+      "punchline": "The distributed ledger shuffle!",
+      "category": "programming",
+      "difficulty": "hard"
+    },
+    {
+      "id": 96,
+      "setup": "Why did the CORS policy become a bouncer?",
+      "punchline": "It was good at handling preflight requests!",
+      "category": "web",
+      "difficulty": "hard"
+    },
+    {
+      "id": 97,
+      "setup": "What's a Redis cache's favorite game?",
+      "punchline": "Memory match!",
+      "category": "database",
+      "difficulty": "medium"
+    },
+    {
+      "id": 98,
+      "setup": "Why did the Selenium test fail?",
+      "punchline": "It couldn't find itself!",
+      "category": "debugging",
+      "difficulty": "medium"
+    },
+    {
+      "id": 99,
+      "setup": "What's a GraphQL developer's favorite movie genre?",
+      "punchline": "Nested documentaries!",
+      "category": "web",
+      "difficulty": "hard"
+    },
+    {
+      "id": 100,
+      "setup": "Why did the Assembly programmer need glasses?",
+      "punchline": "Too many low-level operations!",
+      "category": "programming",
+      "difficulty": "hard"
     }
   ],
-  "categories": ["general", "programming", "hardware", "database", "ui", "devops"],
+  "categories": [
+    "programming",
+    "database",
+    "web",
+    "debugging",
+    "ui/ux",
+    "security",
+    "devops",
+    "algorithms",
+    "general",
+    "networking"
+  ],
   "difficulties": ["easy", "medium", "hard"]
 }
