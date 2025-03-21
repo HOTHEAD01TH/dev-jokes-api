@@ -5,28 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Jokes API Statistics</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <video autoplay muted loop id="myVideo">
+        <source src="https://ik.imagekit.io/i3divn77k/Blockchain/video%20(1080p).mp4?updatedAt=1709418358040" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
     <div class="container">
-        <h1>Dev Jokes API Statistics</h1>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-laugh-squint"></i>
+                    <span>Dev Jokes API</span>
+                </div>
+                <div class="nav-links">
+                    <a href="/docs" target="_blank">
+                        <i class="fas fa-book"></i>
+                        <span>Docs</span>
+                    </a>
+                    <a href="https://github.com/HOTHEAD01TH/dev-jokes-api" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="header">
+            <h1>API Statistics Dashboard</h1>
+            <p class="subtitle">Real-time monitoring and statistics</p>
+            <div class="live-indicator">
+                <span class="pulse"></span>
+                <span class="live-text">LIVE</span>
+            </div>
+        </div>
+
         <div class="stats-grid">
             <div class="stat-card">
-                <h2>API Status</h2>
+                <div class="stat-header">
+                    <h2>API Status</h2>
+                    <div class="stat-icon rotating">
+                        <i class="fas fa-signal"></i>
+                    </div>
+                </div>
                 <div class="status-indicator">
                     <span id="status-dot"></span>
                     <p id="status">Checking...</p>
                 </div>
             </div>
             <div class="stat-card">
-                <h2>Uptime</h2>
+                <div class="stat-header">
+                    <h2>Uptime</h2>
+                    <div class="stat-icon bouncing">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                </div>
                 <p id="uptime">Loading...</p>
             </div>
             <div class="stat-card">
-                <h2>Total Requests</h2>
+                <div class="stat-header">
+                    <h2>Total Requests</h2>
+                    <div class="stat-icon floating">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                </div>
                 <p id="requests">Loading...</p>
             </div>
             <div class="stat-card">
-                <h2>Last Downtime</h2>
+                <div class="stat-header">
+                    <h2>Last Downtime</h2>
+                    <div class="stat-icon shaking">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                </div>
                 <p id="downtime">Loading...</p>
             </div>
         </div>

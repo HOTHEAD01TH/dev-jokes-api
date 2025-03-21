@@ -69,6 +69,48 @@
       "punchline": "They lost their backup plan!",
       "category": "database",
       "difficulty": "medium"
+    },
+    {
+      "id": 11,
+      "setup": "What's a Git user's favorite drink?",
+      "punchline": "Branch water!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "setup": "Why do frontend developers go broke?",
+      "punchline": "Because they waste all their cache!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "setup": "What did the SQL query say to the database?",
+      "punchline": "SELECT me out tonight!",
+      "category": "database",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "setup": "Why did the React component feel lost?",
+      "punchline": "Because it didn't know its state!",
+      "category": "programming",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "setup": "What's a cloud engineer's favorite game?",
+      "punchline": "Container Ship!",
+      "category": "devops",
+      "difficulty": "hard"
+    },
+    {
+      "id": 16,
+      "setup": "Why was the TypeScript developer sad?",
+      "punchline": "Because they were experiencing type depression!",
+      "category": "programming",
+      "difficulty": "hard"
     }
   ],
   "categories": ["general", "programming", "hardware", "database", "ui", "devops"],

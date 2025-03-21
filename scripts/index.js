@@ -213,6 +213,11 @@ app.get('/api/statistics', (req, res) => {
   res.json(statistics.getStatistics());
 });
 
+// Add this route before the swagger UI setup
+app.get('/docs-json', (req, res) => {
+  res.json(swaggerDocs);
+});
+
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);

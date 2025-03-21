@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node scripts/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate-sdk": "openapi-generator-cli generate -i http://localhost:3000/api-docs/swagger.json -g javascript -o sdk/javascript",
-    "generate-sdk-typescript": "openapi-generator-cli generate -i http://localhost:3000/api-docs/swagger.json -g typescript-axios -o sdk/typescript"
+    "generate-sdk": "openapi-generator-cli generate -i http://localhost:3000/docs-json -g javascript -o sdk/javascript",
+    "generate-sdk-typescript": "openapi-generator-cli generate -i http://localhost:3000/docs-json -g typescript-axios -o sdk/typescript"
   },
   "keywords": [],
   "author": "",

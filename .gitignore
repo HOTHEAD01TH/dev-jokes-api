@@ -1,2 +1,14 @@
-node_modules
-sdk
+# Dependencies
+node_modules/
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# SDK build artifacts
+sdk/**/node_modules
+sdk/**/.openapi-generator
+sdk/**/git_push.sh
+sdk/**/.travis.yml
